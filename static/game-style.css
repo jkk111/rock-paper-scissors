@@ -1,0 +1,26 @@
+html, body {
+  margin: 0;
+  background-color: #ddd;
+}
+
+#wrapper {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  text-align: center;
+}
+
+.player-move {
+  font-size: 36px;
+  width: 50%;
+  text-align: center;
+}
+
+.defeat {
+  color: red;
+}
+
+.victory {
+  color: green;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rock Paper Scissors</title>
+  <script src="game-script.js"></script>
+  <link rel="stylesheet" type="text/css" href="game-style.css">
+</head>
+<body>
+  <div id="wrapper">
+    <div>
+      <span id="self-move" class="player-move"></span>
+      <span id="opponent-move" class="player-move"></span>
+    </div>
+    <div id="outcome">
+
+    </div>
+    <div id="controls">
+      <button onclick="computeOpponentMove('rock')">Rock</button>
+      <button onclick="computeOpponentMove('paper')">Paper</button>
+      <button onclick="computeOpponentMove('scissors')">Scissors</button>
+    </div>
+  </div>
+</body>
+</html>
